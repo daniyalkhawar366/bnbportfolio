@@ -11,6 +11,7 @@
     "set-up-content": "npx tsx@latest ./set-up-content.ts"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@prismicio/client": "^7.11.0",
     "@prismicio/next": "^1.5.0",
     "@prismicio/react": "^2.7.3",
