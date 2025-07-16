@@ -79,7 +79,7 @@ export default function ServicesPage() {
           {services.map((service, idx) => (
             <div
               key={service.title}
-              ref={el => (cardsRef.current[idx] = el)}
+              ref={el => { cardsRef.current[idx] = el; }}
               className="service-card flex flex-col items-center rounded-2xl border-2 border-slate-800 bg-slate-900 p-8 shadow-lg transition-transform duration-300 hover:scale-105 hover:-translate-y-2"
             >
               <div className="mb-4">{service.icon}</div>
