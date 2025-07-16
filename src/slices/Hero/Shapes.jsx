@@ -12,7 +12,8 @@ export function Shapes() {
       <Canvas
         className="z-0"
         shadows
-        gl={{ antialias: false }}
+        gl={{ antialias: false, alpha: true }}
+        style={{ background: 'none' }}
         dpr={[1, 1.5]}
         camera={{ position: [0, 0, 25], fov: 30, near: 1, far: 40 }}
       >
@@ -25,7 +26,7 @@ export function Shapes() {
             blur={1}
             far={9}
           />
-          <Environment files="/smallroom.hdr" background />
+          <Environment files="/smallroom.hdr" />
         </Suspense>
       </Canvas>
     </div>
