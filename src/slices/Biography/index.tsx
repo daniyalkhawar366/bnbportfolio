@@ -1,3 +1,4 @@
+import React from "react";
 import Avatar from "@/components/Avatar";
 import Bounded from "@/components/Bounded";
 import Button from "@/components/Button";
@@ -23,7 +24,7 @@ const Biography = (): JSX.Element => {
         </Heading>
         <div className="prose prose-xl prose-slate prose-invert col-start-1">
           <p>
-            Hey! I'm Daniyal from Islamabad. I'm into tech, travel, and figuring things out. I love the little things that make a difference: clean spaces, quick responses, and creating good vibes wherever I go. I believe in making people feel genuinely welcome and at home, whether through a warm conversation or just being helpful when needed.<br /><br />
+            Hey! I&apos;m Daniyal from Islamabad. I&apos;m into tech, travel, and figuring things out. I love the little things that make a difference: clean spaces, quick responses, and creating good vibes wherever I go. I believe in making people feel genuinely welcome and at home, whether through a warm conversation or just being helpful when needed.<br /><br />
             Always excited to connect with new people and share stories!
           </p>
         </div>
